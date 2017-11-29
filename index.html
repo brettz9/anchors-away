@@ -6,7 +6,9 @@
     <script>
 
 // If the user has JavaScript and clicks on the link
-//  intead of just waiting, ensure we include the anchor
+//  intead of just waiting (e.g., if the second script
+//  hasn't yet loaded due to a slow connection), ensure
+//  we include the anchor
 window.addEventListener('click', function (e) {
     e.preventDefault();
     if (e.target.href) { // Ignore stray clicks
