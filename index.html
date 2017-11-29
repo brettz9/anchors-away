@@ -3,20 +3,28 @@
 <head>
     <meta charset="utf-8" />
     <title>Redirect</title>
+    <script>
+
+// If the user has JavaScript and clicks on the link
+//  intead of just waiting, ensure we include the anchor
+window.addEventListener('click', function (e) {
+    e.preventDefault();
+    if (e.target.href) { // Ignore stray clicks
+        location = e.target.href + location.hash;
+    }
+}, true);
+    </script>
 </head>
 <body>
 
 <!-- Customize the href value using your redirect target's base URL. -->
-
-Redirecting to <a id="redirect" href="http://example.com/somepage/">a new location</a>...
+Redirecting to <a id="redirect" href="http://example.com/somepage/">
+    a new location
+</a>...
 
 <script>
-
 var a = document.getElementById('redirect');
-var page = a.href;
-a.href = 'javascript:void(0);'; // Quickly prevent link from operating since we now know the user has JavaScript
-location = page + location.hash;
-
+a.click();
 </script>
 
 </body>
