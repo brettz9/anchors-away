@@ -1,0 +1,20 @@
+{
+  "name": "anchors-away",
+  "version": "1.0.0",
+  "description": "Redirect an HTML page to another page including the anchors",
+  "main": "index.html",
+  "author": "Brett Zamir <brettz9@yahoo.com>",
+  "contributors": [],
+  "license": "MIT",
+  "keywords": ["anchors", "html"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brettz9/anchors-away.git"
+},
+  "engines": {},
+  "homepage": "https://github.com/brettz9/anchors-away",
+  "bugs": {
+    "url": "https://github.com/brettz9/anchors-away/issues"
+  },
+  "dependencies": {}
+}
