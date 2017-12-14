@@ -1,5 +1,7 @@
 # anchors-away
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/brettz9/anchors-away.svg)](https://greenkeeper.io/)
+
 Simple file to redirect an HTML page to another page including the anchors.
 
 Since anchors are not sent to the server in regular web requests such that
