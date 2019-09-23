@@ -6,11 +6,14 @@
   "author": "Brett Zamir <brettz9@yahoo.com>",
   "contributors": [],
   "license": "MIT",
-  "keywords": ["anchors", "html"],
+  "keywords": [
+    "anchors",
+    "html"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/brettz9/anchors-away.git"
-},
+  },
   "engines": {},
   "homepage": "https://github.com/brettz9/anchors-away",
   "bugs": {
