@@ -1,6 +1,6 @@
 {
   "name": "anchors-away",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Redirect an HTML page to another page including the anchors",
   "main": "index.html",
   "author": "Brett Zamir <brettz9@yahoo.com>",
